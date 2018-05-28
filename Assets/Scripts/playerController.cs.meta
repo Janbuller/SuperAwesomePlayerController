@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c4fc41d417de1af47b36f74e3722d714
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - RigidBody: {instanceID: 0}
+  - HitBall: {fileID: 8300000, guid: 54453348a8a44c94ba02e35c1050d68f, type: 3}
+  - Die: {fileID: 8300000, guid: bf274f340913e844daaaaab89ba85b65, type: 3}
+  - Jump: {fileID: 8300000, guid: b5013146747a73642b7d4e9e3cf67cf5, type: 3}
+  - audioSource: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
