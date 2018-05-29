@@ -13,7 +13,7 @@ public class playerController : MonoBehaviour {
     public float Snappiness = 18;
     // Force when jumping
     public float JumpHeight = 60;
-    // Speed of fastfall
+    // Speed of FastFall
     public float FastFallSpeed = 100;
     // Jumps since last touching ground
     float JumpsSinceGrounded;
@@ -76,6 +76,6 @@ public class playerController : MonoBehaviour {
                 // Return JumpsSinceGrounded to 0
                 JumpsSinceGrounded = 0;
             }
-            }
+        }
      }
 }
