@@ -15,6 +15,8 @@ public class playerController : MonoBehaviour {
     public float JumpHeight = 60;
     // Speed of FastFall
     public float FastFallSpeed = 100;
+    // The amount of jumps allowed when in the air
+    public int AmountOfJumps = 2;
     // Jumps since last touching ground
     float JumpsSinceGrounded;
     // Has the player finished jumping
@@ -27,7 +29,7 @@ public class playerController : MonoBehaviour {
         RigidBody.AddForce(new Vector3((Input.GetAxis("Horizontal") * Speed) - RigidBody.velocity.x * Snappiness, 0, 0));
 
         // Jump
-        if (Input.GetAxisRaw("Jump") > 0.5 && JumpsSinceGrounded <= 1 && JumpFinished)
+        if (Input.GetAxisRaw("Jump") > 0.5 && JumpsSinceGrounded < AmountOfJumps && JumpFinished)
         {
             // Add jump force
             RigidBody.AddForce(new Vector3(0, JumpHeight, 0), ForceMode.Impulse);
