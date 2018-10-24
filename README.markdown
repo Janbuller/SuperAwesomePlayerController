@@ -63,16 +63,61 @@ Change the `"Gravity"` to
 
 ### Ground
 Make a cube with the following `"Transform"`
-| |Position|Rotation|Scale
-|:---:|:---:|:---:|:---:
-|X|0|0|50
-|Y|-20|0|20
-|Z|0|0|10
+
+<table >
+		<tr>
+        	<td></td>
+            <th>X</th>
+			<th>Y</th>
+			<th>Z</th>
+		</tr>
+		<tr>
+			<th>Position</th>
+            <td>0</td>
+			<td>-20</td>
+			<td>0</td>
+		</tr>
+		<tr>
+			<th>Rotation</th>
+            <td>0</td>
+			<td>0</td>
+			<td>0</td>
+		</tr>
+		<tr>
+			<th>Scale</th>
+            <td>50</td>
+			<td>20</td>
+			<td>10</td>
+		</tr>
+</table>
+
 ### Camera
 Change the background color to `HEX` `428BFF` <br/>
 Change the `"Transform"`
-| |Position|Rotation|Scale
-|:---:|:---:|:---:|:---:
-|X|0|0|1
-|Y|0|0|1
-|Z|-45.23|0|1
+
+<table >
+		<tr>
+        	<td></td>
+            <th>X</th>
+			<th>Y</th>
+			<th>Z</th>
+		</tr>
+		<tr>
+			<th>Position</th>
+            <td>0</td>
+			<td>-0</td>
+			<td>-45.23</td>
+		</tr>
+		<tr>
+			<th>Rotation</th>
+            <td>0</td>
+			<td>0</td>
+			<td>0</td>
+		</tr>
+		<tr>
+			<th>Scale</th>
+            <td>1</td>
+			<td>1</td>
+			<td>1</td>
+		</tr>
+</table>
