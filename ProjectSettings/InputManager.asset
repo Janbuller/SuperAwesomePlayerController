@@ -7,8 +7,8 @@ InputManager:
   m_Axes:
   - serializedVersion: 3
     m_Name: Horizontal
-    descriptiveName: Move Left
-    descriptiveNegativeName: Move Right
+    descriptiveName: Move Right
+    descriptiveNegativeName: Move Left
     negativeButton: a
     positiveButton: d
     altNegativeButton: left

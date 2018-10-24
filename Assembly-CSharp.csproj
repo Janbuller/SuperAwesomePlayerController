@@ -65,11 +65,11 @@
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/THEGa/Documents/Unity/SuperAwesomePlayerController/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/THEGa/Documents/Unity/SuperAwesomePlayerController/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/THEGa/Documents/Unity/SuperAwesomePlayerController/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/THEGa/Documents/Unity/SuperAwesomePlayerController/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/THEGa/Documents/Unity/SuperAwesomePlayerController/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
