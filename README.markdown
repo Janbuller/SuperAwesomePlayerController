@@ -13,11 +13,28 @@ Let's first add all the necessary components to the player object
 Now lets add the input methods <br/>
 You need to add inputs called Horizontal, Jump and Fall.
 
-|Input Name|Positive Button|Negative Button|
-|---|---|---|
-|Horizontal|The right button|The left button|
-|Jump|Jump Button|
-|Fall||Fast-Fall Button|
+<table >
+		<tr>
+			<th>Input Name</th>
+			<th>Positive Button</th>
+			<th>Negative Button</th>
+		</tr>
+		<tr>
+			<td>Horizontal</td>
+			<td>The right button</td>
+			<td>The left button</td>
+		</tr>
+		<tr>
+			<td>Jump</td>
+			<td>Jump Button</td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td>Fall</td>
+			<td> </td>
+			<td>Fast-Fall Button</td>
+		</tr>
+</table>
 
 ## Ground
 Add the tag `"Ground"` to your ground object
@@ -30,9 +47,20 @@ Change the mass under the `"Rigidbody"` component to 1.5 and freeze the Z rotati
 ### Gravity
 Click on `Edit > Project Settings > Physics` in the menu bar <br/>
 Change the `"Gravity"` to
-|X|Y|Z
-|:---:|:---:|:---:
-|0|-58.86|0
+
+<table >
+		<tr>
+			<th>X</th>
+			<th>Y</th>
+			<th>Z</th>
+		</tr>
+		<tr>
+			<td>0</td>
+			<td>-58.86</td>
+			<td>0</td>
+		</tr>
+</table>
+
 ### Ground
 Make a cube with the following `"Transform"`
 | |Position|Rotation|Scale
