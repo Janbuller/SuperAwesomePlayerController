@@ -4,14 +4,15 @@ A really snappy Unity player controller.
 # How to use?
 To use this player controller for your own game you have to follow these steps.
 ## Add components to player
-Let's first add all the necessary components to the player object
+Let's first add all the necessary components to the player object.
 1. First you have to add the `"PlayerController.cs"` script to your player game object.
 2. Next you have to add a `"Rigidbody"` component to your player.
 3. Now you have to add a collider to your player.
 4. Now drag the `"Rigidbody"` component to the `"Rigid Body"` field on the `"PlayerController"` component.
 ## Add inputs
-Now lets add the input methods <br/>
-You need to add inputs called Horizontal, Jump and Fall.
+Now lets add the input methods. <br/>
+You need to add inputs called Horizontal, Jump and Fall. <br/>
+To get to the inputs menu, you have to go to `Edit > Project Settings > Input` in the menu bar.
 
 <table >
 		<tr>
@@ -37,15 +38,15 @@ You need to add inputs called Horizontal, Jump and Fall.
 </table>
 
 ## Ground
-Add the tag `"Ground"` to your ground object
+Add the tag `"Ground"` to your ground object.
 
 ## Recreating example
 These are the last steps to do if you want to recreate the example.<br/>
 ### The player
-The player object has to be a `3x3x1` sphere with a y position of `-8.45`<br/>
-Change the mass under the `"Rigidbody"` component to 1.5 and freeze the Z rotation
+The player object has to be a `3x3x1` sphere with a y position of `-8.45`.<br/>
+Change the mass under the `"Rigidbody"` component to 1.5 and freeze the Z rotation.
 ### Gravity
-Click on `Edit > Project Settings > Physics` in the menu bar <br/>
+Click on `Edit > Project Settings > Physics` in the menu bar. <br/>
 Change the `"Gravity"` to
 
 <table >
@@ -92,7 +93,7 @@ Make a cube with the following `"Transform"`
 </table>
 
 ### Camera
-Change the background color to `HEX` `428BFF` <br/>
+Change the background color to `HEX` `428BFF`. <br/>
 Change the `"Transform"`
 
 <table >
